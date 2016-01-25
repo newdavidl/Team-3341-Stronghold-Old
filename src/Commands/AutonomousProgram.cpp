@@ -1,5 +1,3 @@
-#include "Commands/ResetElevatorEncoders.h"
-#include "Commands/HooksToXMeters.h"
 #include "Commands/TurnAndDrive.h"
 #include "AutonomousProgram.h"
 
@@ -22,10 +20,4 @@ AutonomousProgram::AutonomousProgram()
 	// a CommandGroup containing them would require both the chassis and the
 	// arm.
 
-	/*AddSequential(new TurnAndDrive(0.03, 0.0));
-	AddSequential(new ResetElevatorEncoders());
-	AddSequential(new HooksToXMeters(0.20));
-	AddSequential(new TurnAndDrive(-2.0, 0.0));
-	AddSequential(new HooksToXMeters(0.05));
-	AddSequential(new TurnAndDrive(-0.05, 0.0));*/
 }
